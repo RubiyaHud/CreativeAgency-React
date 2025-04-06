@@ -12,7 +12,7 @@ const Banner = () => {
             <Container>
                 <Flex className={"justify-between items-center"}>
                     <div className="">
-                        <Heading text={"We Are Digital Product Design Agency"} />
+                        <Heading text={"We Are Digital Product Design Agency"} as="h1"/>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
                         <Button className={"bg-white text-primary"} btnText={"Get Started"} />
                     </div>
