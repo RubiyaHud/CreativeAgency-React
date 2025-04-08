@@ -3,6 +3,7 @@
 @theme {
     --color-primary: #5956E8; 
     --color-menuColor: #181818; 
+    --color-borderColor: #E3E3E3;
     --radius-10: 10px; 
     --font-inter: "Inter", "sans-serif";
   }
