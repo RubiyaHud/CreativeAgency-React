@@ -10,7 +10,10 @@ import GDIcon from './icons/GDIcon'
 import WebDesignIcon from './icons/WebDesignIcon'
 import MotionDesignIcon from './icons/MotionDesignIcon'
 
+
+
 const Service = () => {
+    
     return (
         <>
             <div className="py-[100px]">
