@@ -2,6 +2,7 @@
 import './App.css'
 import Banner from './components/Banner'
 import Header from './components/layouts/Header'
+import Portfolio from './components/Portfolio'
 import Service from './components/Service'
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <>
     <Header/>
     <Banner/>
-    <Service/>    
+    <Service/> 
+    <Portfolio/>   
     </>
   )
 }

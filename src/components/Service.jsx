@@ -9,17 +9,17 @@ import DigMarIcon from './icons/DigMarIcon'
 import GDIcon from './icons/GDIcon'
 import WebDesignIcon from './icons/WebDesignIcon'
 import MotionDesignIcon from './icons/MotionDesignIcon'
+import HeadingWithPara from './HeadingWithPara'
 
 
 
 const Service = () => {
-    
+
     return (
         <>
-            <div className="py-[100px]">
+            <div className="my-[100px]">
                 <Container>
-                    <Heading text={"Our Services"} as="h3" className={"font-inter text-menuColor font-bold text-[40px] text-center"} />
-                    <p className="font-inter text-menuColor text-[16px] text-center leading-7 opacity-70 w-[542px] m-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                    <HeadingWithPara className={""} classH={"text-center"} classP={"text-center m-auto"} hText={"Our Services"} pText={"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."} />
                     <Flex className={"pt-14 flex-wrap"}>
                         <ServiceContent Component={UiUxIcon} className={"mr-[30px] mb-[30px]"} headingText={"UI/UX Design"} bodyText={"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."} />
                         <ServiceContent Component={WebDevIcon} className={"mr-[30px] mb-[30px]"} headingText={"Web Development"} bodyText={"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."} />
