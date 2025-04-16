@@ -28,8 +28,6 @@ const Portfolio = () => {
                         <Image className={"mt-[30px]"} imgSrc={portfolioImg6} imgAlt={"portfolio Image6"} />
                         <Image className={"mt-[30px]"} imgSrc={portfolioImg7} imgAlt={"portfolio Image7"} />
                         <Image className={"mt-[30px]"} imgSrc={portfolioImg8} imgAlt={"portfolio Image8"} />
-
-
                     </Flex>
 
                 </Container>
