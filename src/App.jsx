@@ -2,6 +2,7 @@
 import './App.css'
 import Banner from './components/Banner'
 import CustomerExperrience from './components/CustomerExperrience'
+import Footer from './components/layouts/Footer'
 import Header from './components/layouts/Header'
 import News from './components/News'
 import Portfolio from './components/Portfolio'
@@ -18,6 +19,7 @@ function App() {
     <Portfolio/> 
     <CustomerExperrience/> 
     <News/>
+    <Footer/>
     
     </>
   )
