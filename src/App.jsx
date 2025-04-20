@@ -7,6 +7,7 @@ import Header from './components/layouts/Header'
 import News from './components/News'
 import Portfolio from './components/Portfolio'
 import Service from './components/Service'
+import Teams from './components/Teams'
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
     <Banner/>
     <Service/> 
     <Portfolio/> 
+    <Teams/>
     <CustomerExperrience/> 
     <News/>
     <Footer/>
