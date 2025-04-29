@@ -19,23 +19,23 @@ const Portfolio = () => {
         <>
             <div className="mb-[105px]">
                 <Container>
-                    <HeadingWithPara className={""} classH={"text-center"} classP={"text-center m-auto"} hText={"Our Work Portfolio"} pText={"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."} />
+                    <HeadingWithPara  classH={"text-center"} classP={"text-center m-auto"} hText={"Our Work Portfolio"} pText={"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."} />
                     <Flex className={"mt-[50px] flex-wrap justify-between"}>
                         <div className="group relative">
-                            <Image className={""} imgSrc={portfolioImg1} imgAlt={"portfolio Image1"} />
-                            <div className="group-hover:visible invisible absolute bottom-5 left-5 w-[230px] py-[30px] bg-primary rounded-10 text-center">
+                            <Image  imgSrc={portfolioImg1} imgAlt={"portfolio Image1"} />
+                            <div className="group-hover:visible invisible absolute bottom-5 left-5 w-[230px] py-[30px] bg-primary rounded-10 text-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-1000 ease-in-out">
                                 <h3 className={"font-inter font-semibold text-[20px] leading-[27px] text-white"}> Graphic Design </h3>
-                                <Flex className={""}>
+                                <Flex className={"justify-center"}>
                                     <p className={"font-inter font-light text-[16px] leading-[27px] text-white"}>
                                         See Details
                                     </p>
-                                    <Image className={""} imgSrc={arrowImg} imgAlt={"Arrow Image"} />
+                                    <Image  imgSrc={arrowImg} imgAlt={"Arrow Image"} />
                                 </Flex>
                             </div>
                         </div>
-                        <Image className={""} imgSrc={portfolioImg2} imgAlt={"portfolio Image2"} />
-                        <Image className={""} imgSrc={portfolioImg3} imgAlt={"portfolio Image3"} />
-                        <Image className={""} imgSrc={portfolioImg4} imgAlt={"portfolio Image4"} />
+                        <Image  imgSrc={portfolioImg2} imgAlt={"portfolio Image2"} />
+                        <Image  imgSrc={portfolioImg3} imgAlt={"portfolio Image3"} />
+                        <Image  imgSrc={portfolioImg4} imgAlt={"portfolio Image4"} />
                         <Image className={"mt-[30px]"} imgSrc={portfolioImg5} imgAlt={"portfolio Image5"} />
                         <Image className={"mt-[30px]"} imgSrc={portfolioImg6} imgAlt={"portfolio Image6"} />
                         <Image className={"mt-[30px]"} imgSrc={portfolioImg7} imgAlt={"portfolio Image7"} />
