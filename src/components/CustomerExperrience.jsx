@@ -12,7 +12,7 @@ const CustomerExperrience = () => {
             <Container>
                 <HeadingWithPara className={""} classH={"w-[603px]"} classP={""} hText={"We Care About Our Customer Experience Too"} pText={"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."} />
                 <Flex className={"justify-between"}>
-                    <div className={"bg-white mt-12 px-12 pb-6 pt-12 shadow-xl rounded-10"}>
+                    <div className={"bg-white mt-12 px-12 pb-6 pt-12 rounded-10 shadow-[0_6px_35px_rgba(0,0,0,0.08)]"}>
                         <Image imgSrc={customerImage} imgAlt={"Customer Image"} />
                         <Flex className={"gap-1.5 my-7"}>
                             <FaStar className={"text-[20px] text-starColor"} />
@@ -25,7 +25,7 @@ const CustomerExperrience = () => {
                         <h3 className={"font-inter font-semibold text-[20px] leading-7 text-menuColor"}> Mahid Ahmed </h3>
                         <h3 className={"font-inter font-medium text-[16px] leading-7 text-[#5D5D5D]"}> UX Designer </h3>
                     </div>
-                    <div className={"bg-white mt-12 px-12 pb-6 pt-12 shadow-xl rounded-10"}>
+                    <div className={"bg-white mt-12 px-12 pb-6 pt-12 rounded-10 shadow-[0_6px_35px_rgba(0,0,0,0.08)]"}>
                         <Image imgSrc={customerImage} imgAlt={"Customer Image"} />
                         <Flex className={"gap-1.5 my-7"}>
                             <FaStar className={"text-[20px] text-starColor"} />
@@ -38,7 +38,7 @@ const CustomerExperrience = () => {
                         <h3 className={"font-inter font-semibold text-[20px] leading-7 text-menuColor"}> Mahid Ahmed </h3>
                         <h3 className={"font-inter font-medium text-[16px] leading-7 text-[#5D5D5D]"}> UX Designer </h3>
                     </div>
-                    <div className={"bg-white mt-12 px-12 pb-6 pt-12 shadow-xl rounded-10"}>
+                    <div className={"bg-white mt-12 px-12 pb-6 pt-12 rounded-10 shadow-[0_6px_35px_rgba(0,0,0,0.08)]"}>
                         <Image imgSrc={customerImage} imgAlt={"Customer Image"} />
                         <Flex className={"gap-1.5 my-7"}>
                             <FaStar className={"text-[20px] text-starColor"} />
